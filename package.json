@@ -1,0 +1,25 @@
+{
+  "name": "memorie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -t es5  script.ts",
+    "style": "sass style.scss style.css",
+    "test": "jest --env=jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^8.14.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@types/jest": "^28.1.3",
+    "@types/jsdom": "^11.0.0",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "jsdom": "^20.0.0",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}

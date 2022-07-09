@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="Container">
+        <div class='modal visible'>
+            <div class="box">
+                <h1>Start Game</h1>
+                <div class="playerButtons" data-value = "How many Players?">
+                    <button class="optionbtn">1</button>
+                    <button class="optionbtn">2</button>
+                    <button class="optionbtn">3</button>
+                    <button class="optionbtn">4</button>
+                </div>
+                <button class = 'btn'>Start Game</button>
+            </div>
+        </div>
+        <div id="gameOverModal" class='modal'>
+            <div class="box">
+                <h1>Time is Over </br> <center>GAME OVER</center></h1>
+                <button class = 'btn' >Restart</button>
+            </div>
+        </div>
+        <div id="victoryModal" class='modal'>
+            <div class="box" id="winBox">
+                <h1 id="wonPlayer"></h1>
+                <button class = 'btn'>Restart</button>
+            </div>
+        </div>
+
+        <div class='gameContainer' data-gamecontainer>
+            <span class='gameTimeContainer whiteLargeFont' data-timecontainer>100 s</span>
+            <div class="cardsContainer ">
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (0).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (0).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (1).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (1).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (2).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (2).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (3).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (3).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (4).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (4).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (5).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (5).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (6).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (6).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (7).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (7).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (8).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (8).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (9).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (9).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (10).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = " card-face" src="/Pictures/Download (10).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (11).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+                <div class="card">
+                    <img class = "card-face" src="/Pictures/Download (11).jpeg" alt="Your Browser does not support the Picture functionality">
+                    <div class="card-back card-face"></div>
+                </div>
+            </div>
+            <div class="playerContainer">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
